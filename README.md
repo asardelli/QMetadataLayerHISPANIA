@@ -27,4 +27,4 @@ En el menú <i>Complemento</i> se selecciona la opción <i>Administrar e instala
 Se escribe el nombre del complemento en la parte superior, se selecciona y se hace click en el botón <b> Instalar complemento</b>
 
 ## Importante
-El complemento tiene funciones que requieren de la definición de variables en QGIS. Para más información, visite https://github.com/asardelli/Manual-QMetadataLayerHISPANIA.git
+El complemento tiene funciones que requieren de la definición de variables en QGIS. Para más información, visite https://github.com/asardelli/Manual_QMetadataLayerHISPANIA.git
