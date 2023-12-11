@@ -1,4 +1,4 @@
-﻿[general]
+[general]
 
 #nombre
 name=QMetadataLayerHISPANIA
@@ -23,10 +23,10 @@ author=Aldo Sardelli
 email=asardelli@gmail.com
 
 #Pagina web
-https://github.com/asardelli/Manual-QMetadataLayerHISPANIA.git
+homepage=https://github.com/asardelli/Manual_QMetadataLayerHISPANIA.git
 
 #seguimiento de errores
-tracker=asardelli@gmail.com
+tracker=https://github.com/asardelli/QMetadataLayerHISPANIA.git
 
 #Repositorio
 repository=https://github.com/asardelli/QMetadataLayerHISPANIA.git
