@@ -1,0 +1,47 @@
+﻿[general]
+
+#nombre
+name=QMetadataLayerHISPANIA
+
+#descripcion del complemento
+description=Complemento para visualizar y agregar metadatos a las capas.
+
+#acerca
+about=
+	QMetadaLayer HISPANIA es la versión en español del complemento que permite visualizar, agregar, modificar y manipular, así como cargar, guardar, abrir, editar desde y en un archivo los metadatos asociados a una capa en QGIS, tanto vectoriales como raster a través de una interfaz sencilla y dinámica que facilita la visualización de cualquier capa, así como añadir información de una manera más rápida y confiable bajo estandares internacionales (ISO, INSPIRE) ayudando a mantener la uniformidad de los datos. EL complemento, además cuenta con sugerencia en ítems claves, en algunos casos con información de países hispanoamericanos y España.
+
+#version del complemento
+version=1.1.10
+
+#version de QGIS
+qgisMinimumVersion=3.16
+
+#autor
+author=Aldo Sardelli
+
+#direccion email
+email=asardelli@gmail.com
+
+#Pagina web
+https://github.com/asardelli/Manual-QMetadataLayerHISPANIA.git
+
+#seguimiento de errores
+tracker=asardelli@gmail.com
+
+#Repositorio
+repository=https://github.com/asardelli/QMetadataLayerHISPANIA.git
+
+#categoria
+category=Metadata
+
+#icono
+icon=icono.png
+
+#etiquetas
+tags=raster, vector, metadata, oil&gas, maps, QoilTools, qgis, python
+
+# experimental
+experimental=False
+
+# obsoleto
+deprecated=False
