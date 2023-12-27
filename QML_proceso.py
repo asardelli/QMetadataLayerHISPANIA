@@ -579,6 +579,7 @@ class QML:
         archivoCC = open (os.path.dirname(__file__) + f"/default/ciudades_es.txt" , "r",encoding='utf-8-sig')
         #se lee
         contenidoCC = archivoCC . read ( )
+        archivoCC.close()
         #se repara
         contenidoCC = contenidoCC . replace ('"','')
         contenidoCC = contenidoCC . replace ("'","")
@@ -2869,10 +2870,12 @@ class QML:
             layer=iface.activeLayer()
             fileOpen= open (archivo , "r")
             contenido = fileOpen . read ( )
+            fileOpen.close()
             doc=QDomDocument("METADATA")
             doc.setContent(contenido)
             layer.importNamedMetadata(doc,'')
             iface.messageBar().pushMessage('Los metadatos fueron cargados a la capa con éxito'+"\U0001F60C", Qgis.Success)
+            self.dockwidget.comboBoxTIPOMETADATO.setCurrentText('Seleccionar')
         except:
             iface.messageBar().pushMessage('No se ejecutó', Qgis.Warning)
         
@@ -2898,6 +2901,7 @@ class QML:
             layer=iface.activeLayer()
             fileOpen= open (archivo , "r")
             contenido = fileOpen . read ( )
+            fileOpen.close()
             doc=QDomDocument("METADATA")
             doc.setContent(contenido)
             s = doc.toString()
@@ -2968,6 +2972,7 @@ class QML:
         archivoC = open (os.path.dirname(__file__) + "/default/countrys_es.txt" , "r")
         #se lee
         contenido = archivoC . read ( )
+        archivoC.close()
         #se repara
         contenido = contenido . replace ('"','')
         contenido = contenido . replace ("'","")
@@ -2975,6 +2980,7 @@ class QML:
         self.completer = QCompleter(countryListEs)
         self.completer.setCaseSensitivity(Qt.CaseInsensitive)
         self.dockwidget.lineEditPAIS.setCompleter(self.completer)
+        
         wordList = ['attribute','attributeType','collectionHardware','collectionSession',\
         'dataset','dataserie','dimensionGroup','feature','featureType','series','sevice','software','tile']
         self.completer = QCompleter(wordList)
@@ -2993,6 +2999,7 @@ class QML:
         archivoA = open (os.path.dirname(__file__)+ f"/default/areaAdmin_es.txt" , "r", encoding='utf-8-sig')
         #se lee
         contenido = archivoA . read ( )
+        archivoA.close()
         #se repara
         contenido = contenido . replace ('"','')
         contenido = contenido . replace ("'","")
@@ -3004,6 +3011,7 @@ class QML:
         archivo = open (os.path.dirname(__file__) + f"/default/ciudades_es.txt" , "r",encoding='utf-8-sig')
         #se lee
         contenido = archivo . read ( )
+        archivo.close()
         #se repara
         contenido = contenido . replace ('"','')
         contenido = contenido . replace ("'","")
