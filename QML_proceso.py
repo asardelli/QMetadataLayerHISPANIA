@@ -2863,7 +2863,7 @@ class QML:
             layername=layer.name()
             self.dockwidget.labelARCHIVO.setText(f'Capa activa: {layername}')
         except:
-            pass
+            self.dockwidget.labelARCHIVO.setText('Capa activa: ')
     def loadMetadata(self):
         try:
             archivo, _filter= QFileDialog.getOpenFileName(None, "Abrir Archivo",'','*.qmd')

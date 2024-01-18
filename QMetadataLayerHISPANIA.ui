@@ -664,6 +664,9 @@
                   <verstretch>0</verstretch>
                  </sizepolicy>
                 </property>
+                <property name="toolTip">
+                 <string>Presione para ver el resumen completo.</string>
+                </property>
                 <property name="text">
                  <string>Ver</string>
                 </property>
@@ -816,6 +819,9 @@
                 <verstretch>0</verstretch>
                </sizepolicy>
               </property>
+              <property name="toolTip">
+               <string>Presone para agregar palabra clave.</string>
+              </property>
               <property name="text">
                <string>Agregar palabra clave a la lista</string>
               </property>
@@ -838,7 +844,7 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>255</width>
+             <width>305</width>
              <height>345</height>
             </rect>
            </property>
@@ -867,6 +873,9 @@
               </item>
               <item>
                <widget class="QDoubleSpinBox" name="doubleSpinBoxZMAX">
+                <property name="toolTip">
+                 <string>Acepta valores de cota positiva y negativa.</string>
+                </property>
                 <property name="minimum">
                  <double>-100000.000000000000000</double>
                 </property>
@@ -943,6 +952,9 @@
               </item>
               <item>
                <widget class="QLineEdit" name="lineEditYMAX">
+                <property name="toolTip">
+                 <string>Valor numérico, el separador de decimales es un punto (.)</string>
+                </property>
                 <property name="maxLength">
                  <number>30</number>
                 </property>
@@ -970,6 +982,9 @@
               </item>
               <item>
                <widget class="QLineEdit" name="lineEditXMAX">
+                <property name="toolTip">
+                 <string>Valor numérico, el separador de decimales es un punto (.)</string>
+                </property>
                 <property name="maxLength">
                  <number>30</number>
                 </property>
@@ -997,6 +1012,9 @@
               </item>
               <item>
                <widget class="QLineEdit" name="lineEditYMIN">
+                <property name="toolTip">
+                 <string>Valor numérico, el separador de decimales es un punto (.)</string>
+                </property>
                 <property name="maxLength">
                  <number>30</number>
                 </property>
@@ -1102,6 +1120,9 @@
               </item>
               <item>
                <widget class="QDoubleSpinBox" name="doubleSpinBoxZMIN">
+                <property name="toolTip">
+                 <string>Acepta valores de cota positiva y negativa.</string>
+                </property>
                 <property name="minimum">
                  <double>-100000.000000000000000</double>
                 </property>
@@ -1135,6 +1156,9 @@
               </item>
               <item>
                <widget class="QLineEdit" name="lineEditXMIN">
+                <property name="toolTip">
+                 <string>Valor numérico, el separador de decimales es un punto (.)</string>
+                </property>
                 <property name="maxLength">
                  <number>30</number>
                 </property>
@@ -1225,8 +1249,8 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>186</width>
-             <height>257</height>
+             <width>322</width>
+             <height>313</height>
             </rect>
            </property>
            <attribute name="icon">
@@ -1487,7 +1511,7 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>252</width>
+             <width>305</width>
              <height>365</height>
             </rect>
            </property>
@@ -1556,6 +1580,9 @@
               </item>
               <item>
                <widget class="QLineEdit" name="lineEditAREAADMIN">
+                <property name="toolTip">
+                 <string>Escriibe las primeras letras y selecciona</string>
+                </property>
                 <property name="maxLength">
                  <number>100</number>
                 </property>
@@ -1653,6 +1680,9 @@
               </item>
               <item>
                <widget class="QLineEdit" name="lineEditPAIS">
+                <property name="toolTip">
+                 <string>Escriibe las primeras letras del país y selecciona.</string>
+                </property>
                 <property name="maxLength">
                  <number>100</number>
                 </property>
@@ -1891,8 +1921,8 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>134</width>
-             <height>214</height>
+             <width>322</width>
+             <height>313</height>
             </rect>
            </property>
            <attribute name="icon">
@@ -1921,7 +1951,10 @@
               <item>
                <widget class="QLineEdit" name="lineEditNOMBREENL">
                 <property name="toolTip">
-                 <string/>
+                 <string>Nombre que identifica el enlace.</string>
+                </property>
+                <property name="clearButtonEnabled">
+                 <bool>true</bool>
                 </property>
                </widget>
               </item>
@@ -1963,7 +1996,14 @@
                </widget>
               </item>
               <item>
-               <widget class="QLineEdit" name="lineEditURL"/>
+               <widget class="QLineEdit" name="lineEditURL">
+                <property name="toolTip">
+                 <string>Dirección url.</string>
+                </property>
+                <property name="clearButtonEnabled">
+                 <bool>true</bool>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -1977,7 +2017,14 @@
                </widget>
               </item>
               <item>
-               <widget class="QLineEdit" name="lineEditDESCRIP"/>
+               <widget class="QLineEdit" name="lineEditDESCRIP">
+                <property name="toolTip">
+                 <string>Descripción libre del enlace.</string>
+                </property>
+                <property name="clearButtonEnabled">
+                 <bool>true</bool>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -1997,7 +2044,14 @@
                </widget>
               </item>
               <item>
-               <widget class="QLineEdit" name="lineEditFORMATO"/>
+               <widget class="QLineEdit" name="lineEditFORMATO">
+                <property name="toolTip">
+                 <string>Formato del enlace.</string>
+                </property>
+                <property name="clearButtonEnabled">
+                 <bool>true</bool>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -2017,7 +2071,14 @@
                </widget>
               </item>
               <item>
-               <widget class="QLineEdit" name="lineEditMIME"/>
+               <widget class="QLineEdit" name="lineEditMIME">
+                <property name="toolTip">
+                 <string>Escribe las primeras palabras y selecciona.</string>
+                </property>
+                <property name="clearButtonEnabled">
+                 <bool>true</bool>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -2031,7 +2092,14 @@
                </widget>
               </item>
               <item>
-               <widget class="QLineEdit" name="lineEditTAMANOENL"/>
+               <widget class="QLineEdit" name="lineEditTAMANOENL">
+                <property name="toolTip">
+                 <string/>
+                </property>
+                <property name="clearButtonEnabled">
+                 <bool>true</bool>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -2055,8 +2123,8 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>98</width>
-             <height>89</height>
+             <width>322</width>
+             <height>313</height>
             </rect>
            </property>
            <attribute name="icon">
@@ -2081,8 +2149,8 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>181</width>
-             <height>152</height>
+             <width>322</width>
+             <height>313</height>
             </rect>
            </property>
            <attribute name="icon">
