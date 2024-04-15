@@ -332,6 +332,10 @@ class QML:
                 numfeatures=capa.featureCount()
                 self.dockwidget.textBrowserLEERMETA.append(f'<b>Número de objetos:</b> {numfeatures}')
                 self.dockwidget.textBrowserLEERMETA.append('-------------------------------')
+                #01032024 se agregor Numero de columnas
+                numColumna=len(capa.fields())
+                self.dockwidget.textBrowserLEERMETA.append(f'<b>Número de Columnas:</b> {numColumna}')
+                self.dockwidget.textBrowserLEERMETA.append('-------------------------------')
             #Identificación
             elif Items=='Identificación':
                 self.colorBotton1(None, None, "#3399FF", None, None, None, None, None)
@@ -655,7 +659,7 @@ class QML:
         #se limpian las listas
         self.dockwidget.comboBoxACCION.clear()
         self.dockwidget.comboBoxACCION.addItem('Seleccionar')
-        Items=['Agregar Metadatos','Adicionar Palabras Clave','Adicionar Restriciones',\
+        Items=['Agregar Metadatos','Adicionar Palabras Clave','Adicionar Restricciones',\
         'Adicionar un Contacto','Adicionar una Dirección','Adicionar un Link',\
         'Adicionar Historias']
         for s in Items:
@@ -673,7 +677,7 @@ class QML:
             #se limpian las listas
             self.dockwidget.comboBoxACCION.clear()
             self.dockwidget.comboBoxACCION.addItem('Seleccionar')
-            Items=['Agregar Metadatos','Adicionar Palabras Clave','Adicionar Restriciones',\
+            Items=['Agregar Metadatos','Adicionar Palabras Clave','Adicionar Restricciones',\
             'Adicionar un Contacto','Adicionar una Dirección','Adicionar un Link',\
             'Adicionar Historias','Modificar Metadatos','Remover Palabra Clave','Remover Restricción',\
             'Remover un Contacto','Remover una Dirección','Remover un Link','Remover Metadatos']

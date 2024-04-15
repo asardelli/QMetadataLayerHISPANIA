@@ -8,17 +8,13 @@ description=Complemento para visualizar y agregar metadatos a las capas.
 
 #acerca
 about=
-	QMetadaLayer HISPANIA es la versión en español del complemento que permite visualizar, agregar, modificar y manipular, así como cargar, guardar, abrir, editar desde y en un archivo los metadatos asociados a una capa en QGIS, tanto vectoriales como raster a través de una interfaz sencilla y dinámica que facilita la visualización de cualquier capa, así como añadir información de una manera más rápida y confiable bajo estandares internacionales (ISO, INSPIRE) ayudando a mantener la uniformidad de los datos. EL complemento, además cuenta con sugerencia en ítems claves, en algunos casos con información de países hispanoamericanos y España. Si Te ha gustado, no olvides valorarlo.
+	QMetadaLayer HISPANIA es la versión en español del complemento que permite visualizar, agregar, modificar y manipular, así como cargar, guardar, abrir, editar desde y en un archivo los metadatos asociados a una capa en QGIS, tanto vectoriales como raster a través de una interfaz sencilla y dinámica que facilita la visualización de cualquier capa, así como añadir información de una manera más rápida y confiable bajo estándares internacionales (ISO, INSPIRE) ayudando a mantener la uniformidad de los datos. El complemento cuenta con sugerencia en ítems claves, en algunos casos con información de países hispanoamericanos y España. Si Te ha gustado, no olvides valorarlo.
 
 #version del complemento
-version=1.1.12
+version=1.1.18
 changelog=
- Version 1.1.11:
- - Corrección cerrar archivos en código.
- - Al cargar los metadatos de un archivo QMD (pestaña "Más"), en la pestaña "Ver" la pantalla vuelve al inicio.
- Version 1.1.12:
- - Corrección etiqueta en la pestaña 3 cuando no hay capas.
- - Correcciones menores.
+ Version 1.1.18:
+ - corrección en las dimensiones de las pestañas.
 
 #version de QGIS
 qgisMinimumVersion=3.16

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>364</width>
-    <height>686</height>
+    <width>341</width>
+    <height>620</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -455,8 +455,8 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>305</width>
-             <height>341</height>
+             <width>282</width>
+             <height>347</height>
             </rect>
            </property>
            <attribute name="icon">
@@ -467,66 +467,25 @@
             <string>Identificación</string>
            </attribute>
            <layout class="QGridLayout" name="gridLayout_2">
-            <item row="0" column="0">
-             <layout class="QHBoxLayout" name="horizontalLayout">
-              <item>
-               <widget class="QLabel" name="labelidentificador">
-                <property name="sizePolicy">
-                 <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
-                  <horstretch>0</horstretch>
-                  <verstretch>0</verstretch>
-                 </sizepolicy>
-                </property>
-                <property name="text">
-                 <string>Identificador:</string>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QLineEdit" name="lineEditIDENTIFICADOR">
-                <property name="toolTip">
-                 <string>Una referencia, URI, URL o algún otro mecanismo para identificar el recurso</string>
-                </property>
-                <property name="clearButtonEnabled">
-                 <bool>true</bool>
-                </property>
-               </widget>
-              </item>
-             </layout>
-            </item>
-            <item row="1" column="0">
-             <layout class="QHBoxLayout" name="horizontalLayout_2">
-              <item>
-               <widget class="QLabel" name="labelidentificadororigen">
-                <property name="sizePolicy">
-                 <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
-                  <horstretch>0</horstretch>
-                  <verstretch>0</verstretch>
-                 </sizepolicy>
-                </property>
-                <property name="text">
-                 <string>Identificador Origen:</string>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QLineEdit" name="lineEditIDENTIFICADOR_ORIGEN">
-                <property name="toolTip">
-                 <string>Una referencia, URI, URL o algún otro mecanismo para identificar el recurso padre del que este recurso es parte (hijo).</string>
-                </property>
-                <property name="clearButtonEnabled">
-                 <bool>true</bool>
-                </property>
-               </widget>
-              </item>
-             </layout>
+            <item row="8" column="0">
+             <widget class="QLabel" name="labelpalabrasclavesconcepto">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="text">
+               <string>Palabras Clave:</string>
+              </property>
+             </widget>
             </item>
             <item row="2" column="0">
              <layout class="QHBoxLayout" name="horizontalLayout_3">
               <item>
                <widget class="QLabel" name="labeltitulo">
                 <property name="sizePolicy">
-                 <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                   <horstretch>0</horstretch>
                   <verstretch>0</verstretch>
                  </sizepolicy>
@@ -553,7 +512,7 @@
               <item>
                <widget class="QLabel" name="labeltipo">
                 <property name="sizePolicy">
-                 <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                   <horstretch>0</horstretch>
                   <verstretch>0</verstretch>
                  </sizepolicy>
@@ -580,7 +539,7 @@
               <item>
                <widget class="QLabel" name="labelidioma">
                 <property name="sizePolicy">
-                 <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                   <horstretch>0</horstretch>
                   <verstretch>0</verstretch>
                  </sizepolicy>
@@ -636,7 +595,7 @@
               <item>
                <widget class="QLabel" name="labelresumen">
                 <property name="sizePolicy">
-                 <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                   <horstretch>0</horstretch>
                   <verstretch>0</verstretch>
                  </sizepolicy>
@@ -679,7 +638,7 @@
               <item>
                <widget class="QLabel" name="labelcategoria">
                 <property name="sizePolicy">
-                 <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                   <horstretch>0</horstretch>
                   <verstretch>0</verstretch>
                  </sizepolicy>
@@ -704,6 +663,60 @@
               </item>
              </layout>
             </item>
+            <item row="0" column="0">
+             <layout class="QHBoxLayout" name="horizontalLayout">
+              <item>
+               <widget class="QLabel" name="labelidentificador">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="text">
+                 <string>Identificador:</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="lineEditIDENTIFICADOR">
+                <property name="toolTip">
+                 <string>Una referencia, URI, URL o algún otro mecanismo para identificar el recurso</string>
+                </property>
+                <property name="clearButtonEnabled">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item row="1" column="0">
+             <layout class="QHBoxLayout" name="horizontalLayout_2">
+              <item>
+               <widget class="QLabel" name="labelidentificadororigen">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="text">
+                 <string>Identificador Origen:</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="lineEditIDENTIFICADOR_ORIGEN">
+                <property name="toolTip">
+                 <string>Una referencia, URI, URL o algún otro mecanismo para identificar el recurso padre del que este recurso es parte (hijo).</string>
+                </property>
+                <property name="clearButtonEnabled">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
             <item row="7" column="0">
              <layout class="QHBoxLayout" name="horizontalLayout_15">
               <item>
@@ -717,19 +730,6 @@
                </widget>
               </item>
              </layout>
-            </item>
-            <item row="8" column="0">
-             <widget class="QLabel" name="labelpalabrasclavesconcepto">
-              <property name="sizePolicy">
-               <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
-                <horstretch>0</horstretch>
-                <verstretch>0</verstretch>
-               </sizepolicy>
-              </property>
-              <property name="text">
-               <string>Palabras Clave:</string>
-              </property>
-             </widget>
             </item>
             <item row="9" column="0">
              <layout class="QHBoxLayout" name="horizontalLayout_8">
@@ -761,7 +761,7 @@
               <item>
                <widget class="QLabel" name="labelpalabrasclavesitem">
                 <property name="sizePolicy">
-                 <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                   <horstretch>0</horstretch>
                   <verstretch>0</verstretch>
                  </sizepolicy>
@@ -837,15 +837,28 @@
               </property>
              </widget>
             </item>
+            <item row="12" column="0">
+             <spacer name="verticalSpacer_4">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>40</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
            </layout>
           </widget>
           <widget class="QWidget" name="page_2">
            <property name="geometry">
             <rect>
              <x>0</x>
-             <y>0</y>
+             <y>-25</y>
              <width>305</width>
-             <height>345</height>
+             <height>351</height>
             </rect>
            </property>
            <attribute name="icon">
@@ -1242,6 +1255,19 @@
               </item>
              </layout>
             </item>
+            <item row="12" column="0">
+             <spacer name="verticalSpacer_5">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>40</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
            </layout>
           </widget>
           <widget class="QWidget" name="page_3">
@@ -1250,7 +1276,7 @@
              <x>0</x>
              <y>0</y>
              <width>322</width>
-             <height>313</height>
+             <height>320</height>
             </rect>
            </property>
            <attribute name="icon">
@@ -1510,9 +1536,9 @@
            <property name="geometry">
             <rect>
              <x>0</x>
-             <y>0</y>
-             <width>305</width>
-             <height>365</height>
+             <y>-16</y>
+             <width>282</width>
+             <height>371</height>
             </rect>
            </property>
            <attribute name="icon">
@@ -1914,6 +1940,19 @@
               </item>
              </layout>
             </item>
+            <item row="13" column="0">
+             <spacer name="verticalSpacer_6">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>40</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
            </layout>
           </widget>
           <widget class="QWidget" name="Enlaces">
@@ -1921,8 +1960,8 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>322</width>
-             <height>313</height>
+             <width>134</width>
+             <height>214</height>
             </rect>
            </property>
            <attribute name="icon">
@@ -2123,8 +2162,8 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>322</width>
-             <height>313</height>
+             <width>98</width>
+             <height>89</height>
             </rect>
            </property>
            <attribute name="icon">
@@ -2149,8 +2188,8 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>322</width>
-             <height>313</height>
+             <width>181</width>
+             <height>152</height>
             </rect>
            </property>
            <attribute name="icon">
